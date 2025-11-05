@@ -7,6 +7,12 @@ import java.util.HashMap;
             fruits.put("banana",23);
             fruits.put("mango",81);
             System.out.println(fruits);
+            fruits.remove("apple",1);
+            System.out.println(fruits);
+            fruits.clear();
+            System.out.println(fruits);
+            fruits.size();
+            System.out.println(fruits);
         }
 
     }
