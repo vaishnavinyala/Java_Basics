@@ -24,6 +24,7 @@ public class LinkedListExample {
         System.out.println("After removing elements: " + animals);
         animals.add(animals.getFirst());
         animals.add(animals.getLast());
+        animals.remove(animals);
 
 
 
