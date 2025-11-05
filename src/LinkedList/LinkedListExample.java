@@ -25,9 +25,5 @@ public class LinkedListExample {
         animals.add(animals.getFirst());
         animals.add(animals.getLast());
         animals.remove(animals);
-
-
-
-
     }
 }
